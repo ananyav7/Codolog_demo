@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class HI {
+public class HIgit status {
 
     @GetMapping("/api")
     List<DTO_mode> abc() {

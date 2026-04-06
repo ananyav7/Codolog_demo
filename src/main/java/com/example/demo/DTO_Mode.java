@@ -1,6 +1,7 @@
 package com.example.demo;
 
 public class DTO_Mode {
+
     private int id;
     private String isActive;
     private String start_time;
@@ -37,6 +38,4 @@ public class DTO_Mode {
     public void setEnd_time(String end_time) {
         this.end_time = end_time;
     }
-
-
 }

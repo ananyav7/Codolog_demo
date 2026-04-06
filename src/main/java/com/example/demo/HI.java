@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+//import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -10,15 +11,15 @@ import java.util.List;
 public class HI {
 
     @GetMapping("/api")
-    List<DTO_Mode> abc(){
-        List<DTO_Mode> modes= new ArrayList<>();
+    List<DTO_mode> abc() {
+        List<DTO_mode> modes = new ArrayList<>();
 
-        DTO_Mode dt= new DTO_Mode();
+        DTO_mode dt = new DTO_mode();
 
         dt.setId(20);
-        dt.setIsActive("TRUE");
-        dt.setStart_time("12-02-2027");
-        dt.setEnd_time("13-02-2026");
+        dt.setIsActive("True");
+        dt.setStart_time("12-02-2026");
+        dt.setEnd_time("13-12-2026");
 
         modes.add(dt);
 
